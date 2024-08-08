@@ -1,0 +1,124 @@
+.secular-one-regular {
+    font-family: "Secular One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+* {
+    font-family: "Secular One", sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: 0;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient( #972DEA 16.62%, #551984 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    gap: 50px;
+}
+
+.cabecalho-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cabecalho-img {
+    height: 50px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px
+}
+
+.cabecalho-menu-botao {
+    margin-left: auto;
+    border: none;
+    background: none;
+    font-family: "Secular One", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.conteudo-inicial {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.conteudo-inicial-titulo {
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.conteudo-inicial-subtitulo {
+    margin-left: 20px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    margin: 20px;
+}
+
+.conteudo-principal-card {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.conteudo-principal-titulo {
+    color: black;
+    margin-top: 15px;
+}
+
+.conteudo-principal-paragrafo {
+    color: black;
+    margin-top: 15px;
+    width: 230px;
+}
+
+.conteudo-principal-img-esquerdo {
+    background-color: #D9D9D9;
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    height: 300px;
+    padding: 10px;
+    border-radius: 0 200px 200px 0;
+}
+.conteudo-principal-img-direito {
+    background-color: #D9D9D9;
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    height: 300px;
+    padding: 10px;
+    border-radius: 200px 0 0 200px;
+}
+
+.rodape {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
